@@ -155,7 +155,7 @@ $(function() {
      var message = $('#Ymsg').val();
      var NewMsg = "Hey My Name is "+name+" "+message;
      var encodeMsg = encodeURI(NewMsg);    
-         document.location = "https://wa.me/9158110065/?text="+NewMsg;
+         document.location = "https://wa.me/919158110065/?text="+NewMsg;
           $('#success').addClass('expand');
           $('#contact-form').find("input[type=text],textarea").val("");
 
